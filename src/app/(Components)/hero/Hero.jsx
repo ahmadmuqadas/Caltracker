@@ -6,7 +6,7 @@ import Arrow from './arrow.svg'
 
 const Hero = () => {
   return (
-    <main className=' container flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:items-start lg:pt-20 lg:m-auto'>
+    <main className=' container flex flex-col items-center justify-center lg:flex-row lg:justify-between lg:items-start lg:pt-20 lg:m-auto max-w-screen-2xl'>
       <div className='px-3 pt-10 flex flex-col items-center lg:pl-20 lg:items-start lg:flex-1'>
         <h4  className='font-semibold text-center '>Best Calorie Tracker Platform</h4>
         <h1 className='font-semibold text-center text-4xl lg:text-left'>Track your Calorie consumption and burn<span className='font-bold text-orange-400'> with CalTracker</span></h1>
