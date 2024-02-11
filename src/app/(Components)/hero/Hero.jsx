@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import imageSource from './workout.png'
-import imageSource2 from './workout2.jpg'
 import Arrow from './arrow.svg'
+import Link from 'next/link'
+
 
 const Hero = () => {
   return (
@@ -17,6 +18,7 @@ const Hero = () => {
         alt='cal tracker avatar image'
         />
 </button>
+
 </div>
       <div className='px-3 my-10 w-96 lg:pr-20 lg:flex-2'>
         <Image
